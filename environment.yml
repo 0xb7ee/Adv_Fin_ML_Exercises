@@ -1,0 +1,25 @@
+name: adv_fin_ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - numba
+  - llvmlite
+  - pyarrow
+  - fastparquet
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+    - prophet        # 替代 fbprophet
+    - empyrical
+    - pyfolio
+    - nbconvert
+    - ipywidgets
